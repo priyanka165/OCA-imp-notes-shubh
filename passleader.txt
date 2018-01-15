@@ -1,0 +1,44 @@
+
+16) dhyan se padh question ko because it's tricky.
+20) Deeksha dhyan se padhna
+22) Every default constructor is a no-arg constructor but not vice versa.  (Compiler generated is Default constructor not the user-defined)
+27) arraycopy ka 5th arg is the length and not the pos.
+29) dhyan se dekh lena wapas.
+36) dhyan se dekh lena wapas (deeksha)
+45) dhyan se dekh lena wapas.
+49) Unchecked or runtime exceptions need not be declared or handled.....
+50) dhyan se dekh lena wapas (deeksha)
+62) dhyan se dekh lena wapas (deeksha)
+63) dhyan se dekh lena wapas (shubh, deeksha)
+67) dhyan se dekh lena wapas (shubh, deeksha) aur ho sake toh correct ans puch lena.
+68) While comparing String and StringBuilder it will throw a compilation error if u don't use toString() in == whereas in .equals() it works fine because both operands are obj.
+70) dhyan se dekh lena wapas (shubh, deeksha)
+73) wapas dekh  (explanation cert wale me 14 point me hai)
+76) explanation ko padh ache se. kyuki in an sb (+) is legal but bad practice.
+94) for each bhi for(;;) wala structure hi follow karta hai.
+96) Dekh hi le bhai.
+97) dhyan se dekh lena wapas (shubh, deeksha)
+98) dhyan se dekh lena wapas (shubh, deeksha)
+99) dhyan se dekh lena wapas (shubh)
+102) Compulsory dhyan se dekh lena wapas (shubh, deeksha)
+108) dhyan se dekh lena wapas (deeksha) Becuase Constructor Ee ka private hai.
+125) dekh lena.
+129) dekh lena.
+131) dekh lena.
+132) If no match is found in a switch condition then the flow will come out of the switch.
+139) Static  methods can be overloaded but final can't. Public class need not have a main method.
+				140) String ka sabse bada doubt hai (==, hashcode etc etc)
+141) Cases in switch can't repeat.
+152) dhyan se dekh
+156) Try 
+160) sab samjhenge
+162) dhyan se dekh
+163) dhyan se dekh
+165) Finally can't come before cath if present.
+172) dhyan se dekh lena wapas (shubh, deeksha)
+174) dhyan se dekh lena wapas (shubh, deeksha)
+176) dhyan se dekh lena wapas (shubh, deeksha)
+190) dhyan se dekh lena wapas (shubh, deeksha)
+197) dhyan se dekh lena wapas (shubh, deeksha)
+
+

@@ -1,0 +1,62 @@
+1) FLoat can implicitly contain int but vice versaa is possible only when being explicitly type casted. Similarly for long and double.  OPTION D
+2) Doubtful
+5) instnaceof ke dekh le ek bar
+10) If the abstract class is extended by another abstract clas then the subclass need not write the signature of the abstarct method.
+11) In a string list if u give obj.remove(var) then only the 1st occurence of that var is remove and not the other ones.
+14) For accessing a non-static var u need only obj. if it is called within static and directly or with an obj in a non-static nothing else. 
+16) Objects are mutable but string is not.
+18) If while loop has a semi colon after the while clause then the loop ex3ecutes infinite times.
+19) Static method ke andar u can't declare a static var.
+24) A class can iport a package either by the the packagename.class_name or packagename.* or while creating a package use the packagename.class_name obj=new packagename.class_name();		OPTION CEF(keystroke se pehle (.))
+27) Doubtful
+29) Question dhyan se dekh diagram banakar samjah.
+30) While inheriting throwing same exception, throwing subclass or not throwing an exception is fine.
+31) Multilevel inhertiance me beech wale classes bhi main method rakh sakte hai koi problem nahi hai. Bohot bada doubt hai dekh le ache se.
+34) Even if u call a method with an object as a parameter and dont catch the returned value in a variable it still stays in the object and can be accessed easily, even if the mehtod has a return type void.
+35) dekh acha hai
+36) Encapsulation  : 	A. Allowsa class implementation to change without changing t he clients
+			B. Protects confidential data from leaking out of the objects
+			D. Enables the class implementation to protect its invariants
+37) If u have same instance and local name but if u don't use this for assigning the val then the instance var will have default value only.
+	The static meythod can not contain this.a=a;
+38) Each class has 2 packages imported automatically: 1) java.lang	2) package with no name.	3) the current package
+40) The catch clause argument is always of type throwable.
+43 44) Arrays are also obj so all the methods of the class Object can be invoked on it.
+46) Modifiers can be in any order.
+47) In do while the loop executes once completely and displays o/p even if the condition is false.
+48) a for loop can be empty like for(;;) forming the infinite loop. And if the var is not initialized in the loop then it will show compilation error as local var needs to be initiliazed. And if initialized and condition is checked but not incremented then also it is an infinite loop.
+54) Option D
+57) If there are two classes out of which one extends the other but the both the classes has main method then only the one which is being executed by the JVM will be printed.
+61) A class can contain nested classes as well but a variable can't be abstract.
+81) While overridng a method the overrideen mewthod's return type must either be of the same type or the subtype of the overrideen method's type.
+83) System.arrayCopy(src,srcPos,des,decPos, length to be copied);
+91) array me humesha length asttribute hota hai, string me lenth() method hota hai aur collections me size() hota hai.\
+98) Dobutful.
+99) While inheriting pehle extends aaega and then implements.
+103) Anything appended with a string which is null will result in nullappendedstring.
+105) Null Value unless being used for some operation doesn't throw the NullPointerException.
+108) insert method in string taked 2 args int and string.
+114) ek bar wapas dekh lena.
+127) koi option nahi hai.
+128) Isme List type isliye de rahe hai because the reference type is of List and statically it should always be of reference type and not dynamic type.
+134) Even if the constructor throws an exception, the object gets created.
+144) Non-static members ke andar se non-static members ko classname. karke nahi bula sakte. and baki ka 14) pt dekh le.
+146) Fields are the instance variables.
+153) dekh le different hai.
+162) If a method doesn't return anythoing then the method can either have return; or nothing at all.
+164) Doubtful
+165) In a 2d or a 3d array we can dynamically change the 2nd or 3rd dimension's value.
+166) While overriding, the main class checks whether the method is present in the classo f the instance if yes the it calls othrwise goes upward to the inheritance heirarchy and calls the overrideen method.
+171) Option BCF and Static methods can be overloaded
+178) A switch works with the byte, short, char, and int primitive data types. It also works with enumerated types theString class, and a few special classes that wrap certain primitive types: Character, Byte, Short, and Integer.
+188) MAke sure u see this.
+189) Runtime exceptions need not be handled.
+190) Tu execute karna ek bar
+192) Kuch nahi samajh aay
+210) Whenever we have a toString() in a class then it automatically gets printed whenever the object is given in the sysout
+
+
+
+
+Point: Both local and instance variables can be left uninitialized until used. although the instance can be used without initializing.
+Only static members can be passed as an argument in the super() or this().

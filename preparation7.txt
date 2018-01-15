@@ -1,0 +1,23 @@
+1) If u want to threow the exception to the calling method then u can directly use a finally block after the try block.
+2) If a method doesn't provide a catch clause for a particular exception, that method is said to be "ducking" the exception (or "passing the buck").
+3) Call Stack is a chanin of methods being called which is placed on a stack(upward)
+4) Exception propagation is defined as throwing the exception to the calling method through the call stack.
+5) If an exception is never caught then the prg. stops executing.
+6) An exception is always a subclass of exception.
+7) Errors are the unusual conditions that doesn't occur because of the program execution.
+8) Exceptions are the unusual condition that might be required to be corrected to successfully execute the prg.
+9) The printStackTrace() unwinds the call stack from the top to the bottom.
+10) IndexOutOfBoundsException contains 2 subclasses ArrayIndexOutOfBoundsException, StringIndexOutOfBoundsException.
+11) Exception Matching: The If the try block throws an exception then that exception is matched with the corresponding exception but if the JVM doesn't find then it finds its superclass. I feven that's not found then it will go down through the call stack.
+12) More specific exception handlers are placed first and then the genral exceptions.
+13) The sibling exceptions can be placed in any order.
+14) The methods should also declare the type of exception being thrown(may or may not) by the method.
+15) If u declare that a method throws an exception but u didnot provide the try-catch for it then the exception is thrown down the stack.
+16) Any method that might throw an exception (unless it's a subclass of RuntimeException) must declare the exception.
+17) Runtime Exceptions need not be declared in the method and is under no obligation to handle it but all the other non-runtime exeptions are considered to be checked so need to be declared.
+18) This rule is referred to as Java's "handle or declare" requirement (sometimes called "catch or declare").
+19) U need to declare an error(AssertionError) also. Wo bhi rarely.
+20) Rethrowing an exception is possible(ie the exception can be thrown from the catch block of the same exception). But even if u throw it fromt he catch block u have to declare it.
+21) 2 causes of Exceptions:	i) JVM exceptions Those exceptions or errors that are either exclusively or most logically thrown by the JVM
+				ii) Programmatic exceptions Those exceptions that are thrown explicitly by application and/or API programmers
+22)
